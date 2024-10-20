@@ -1,4 +1,4 @@
-# cso-v2
+# v2.calebokkers
 
 ## Project setup
 ```

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* base styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    min-height: 100vh;
+    
+}
+
+
+:root {
+    font-family: "Poppins", monospace;
+    font-size: 16px;
+    --primary: #bc26d6;
+    --secondary: #fe7ab6;
+    --primary-light: #FDFDFC;
+    /* --secondary-light: #F1F0EE; */
+    --primary-dark: #151515;
+    --secondary-dark: #252525;
+}
+
+
+html {
+    min-height: 100vh;
+    margin: 0;
+    overflow-x: auto;
+}
+
+body {
+    min-height: 100vh;
+    background: #020202;
+    overflow-x: hidden;
+    /* overflow-y: scroll; */
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    background: #151515;
+    margin: 0;
+    padding: 0;
+}
+
