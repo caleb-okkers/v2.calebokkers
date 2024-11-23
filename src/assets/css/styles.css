@@ -51,3 +51,7 @@ section {
     padding: 0;
 }
 
+p {
+    color: var(--primary-light);
+}
+
