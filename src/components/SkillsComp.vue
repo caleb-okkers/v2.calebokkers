@@ -3,7 +3,7 @@
    <div class="text-center">
       <h3 class="heading">Skills</h3>
    </div>
-   <div class="row justify-content-center align-items-center pt-5 skill-div">
+   <div class="row justify-content-center align-items-center pt-4 skill-div">
 
       <SkillCard v-for="skill in cardSkills" :key="skill.name" :imageSrc="skill.icon"
       :caption="skill.name">

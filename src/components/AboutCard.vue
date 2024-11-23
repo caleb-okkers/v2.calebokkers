@@ -32,30 +32,32 @@
     border-radius: 5px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
-    max-width: 150px;
-    height: 150px;
+    max-width: 100px;
+    height: 100px;
     margin: auto;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 10px;
+    padding: 1px;
+    padding-top: 5px;
   }
   
   .card-image {
-    width: 50%;
+    width: 40%;
     display: block;
     margin: 0 auto;
   }
   
   .card-caption {
-    padding: 5px;
+    padding: 1px;
     font-size: 0.8rem;
+    margin-bottom: -10px;
   }
   
   .card-footer {
     color: #555;
-    padding: 5px;
+    padding: 1px;
     font-size: 0.7rem;
   }
   </style>

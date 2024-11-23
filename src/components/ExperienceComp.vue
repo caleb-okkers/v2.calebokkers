@@ -1,6 +1,6 @@
 <template>
     <div class="container" id="experience-section">
-      <div class="experience-section" v-if="work && work.length">
+      <div class="experience-section text-center" v-if="work && work.length">
     <h2 class="section-heading heading">Work Experience</h2>
     <p class="subtext">It's not about the destination ... it's about the experience.</p>
     

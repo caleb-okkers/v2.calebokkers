@@ -1,6 +1,6 @@
 <template>
     <div class="container" id="education-section">
-      <div class="education-section" v-if="education && education.length">
+      <div class="education-section text-center" v-if="education && education.length">
         <h2 class="edu-heading heading">Education</h2>
         <p class="subtext">I believe that knowledge is power ... but wisdom is how to use it.</p>
   

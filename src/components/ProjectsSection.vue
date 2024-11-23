@@ -1,10 +1,19 @@
 <template>
-    <div></div>
+      <div class="container pt-5">
+        <div class="row d-flex justify-content-center align-items-center pt-5">
+
+            <ProjectCard/>
+        </div>
+      </div>
 </template>
 
 <script>
-export default {
+import ProjectCard from './ProjectCard.vue';
 
+export default {
+    components: {
+    ProjectCard
+  }
 }
 </script>
 

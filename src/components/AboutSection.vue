@@ -4,7 +4,7 @@
       <div class="col d-flex justify-content-center align-items-center">
         <div class="about-div">
           <h3 class="heading">About</h3>
-          <p class="pt-3">
+          <p class="pt-4">
             I am a compassionate person who enjoys having fun and joking around
             while knowing when to lock in and take things seriously. I hold
             values such as respect, kindness, integrity and mindfulness while I
@@ -19,7 +19,7 @@
     >
       <div class="col text-center justify-content-center pt-5 person-column">
         <h3 class="heading">Personality</h3>
-        <div class="person-div d-flex justify-content-center">
+        <div class="person-div pt-4 d-flex justify-content-center">
           <AboutCard
             imageSrc="https://via.placeholder.com/300"
             caption="ENTJ"
@@ -49,31 +49,31 @@
       </div>
       <div class="col text-center justify-content-center pt-5 hobby-column">
         <h3 class="heading">Hobbies</h3>
-        <div class="person-div d-flex justify-content-center">
+        <div class="person-div pt-4 d-flex justify-content-center">
           
           <HobbyCard
             imageSrc="https://via.placeholder.com/300"
-            caption="Action"
+            caption="Football"
           />
           <HobbyCard
             imageSrc="https://via.placeholder.com/300"
-            caption="Action"
+            caption="MMA"
           />
           <HobbyCard
             imageSrc="https://via.placeholder.com/300"
-            caption="Action"
+            caption="F1"
           />
           <HobbyCard
             imageSrc="https://via.placeholder.com/300"
-            caption="Action"
+            caption="Art"
           />
           <HobbyCard
             imageSrc="https://via.placeholder.com/300"
-            caption="Action"
+            caption="Movies"
           />
           <HobbyCard
             imageSrc="https://via.placeholder.com/300"
-            caption="Action"
+            caption="Family"
           />
         </div>
       </div>
@@ -120,7 +120,7 @@ export default {
 }
 
 .about-row-2 {
-  width: 75%;
+  width: 60%;
   margin: 0 auto !important;
 }
 
@@ -130,10 +130,10 @@ export default {
 }
 
 .person-column {
-  margin-right: 2rem;
+  margin-right: 3.5rem;
 }
 .hobby-column {
-  margin-left: 2rem;
+  margin-left: 3.5rem;
 }
 
 </style>

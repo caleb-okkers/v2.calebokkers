@@ -27,8 +27,8 @@
     border-radius: 5px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
-    max-width: 150px;
-    height: 150px;
+    max-width: 100px;
+    height: 100px;
     margin: auto;
     text-align: center;
     display: flex;
@@ -45,6 +45,7 @@
   .card-caption {
     padding: 5px;
     font-size: 0.8rem;
+    margin-bottom: -10px;
   }
 
   </style>
