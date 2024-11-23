@@ -13,7 +13,8 @@ export default createStore({
     skills: null,
     hobbies: null,
     designSkills: null,
-    softSkills: null
+    softSkills: null,
+    cardSkills: null
   },
   getters: {
   },
@@ -47,6 +48,9 @@ export default createStore({
     },
     setSoftSkills(state,payload) {
       state.softSkills = payload
+    },
+    setCardSkills(state,payload) {
+      state.cardSkills = payload
     }
   },
   actions: {
@@ -181,6 +185,20 @@ export default createStore({
       try {
         let {softSkills} = (await axios.get(portfolioURL)).data
         context.commit('setSoftSkills', softSkills)
+        
+      }catch(e) {
+        Swal.fire({
+          title: "Error",
+          text: "Failed to fetch data",
+          icon: "error",
+          timer: 2000
+        })
+      }
+    },
+    async getCardSkills(context){
+      try {
+        let {cardSkills} = (await axios.get(portfolioURL)).data
+        context.commit('setCardSkills', cardSkills)
         
       }catch(e) {
         Swal.fire({
