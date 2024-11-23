@@ -22,8 +22,8 @@
     
     <style scoped>
   footer {
-    /* color: var(--primary-light);
-      background: var(--primary-dark); */
+    color: var(--primary-light);
+      background: var(--primary-dark);
     /* font-family: "Bona Nova SC", serif;
       font-weight: 500;
       font-style: normal;
@@ -64,9 +64,9 @@
     margin-right: 1.5rem;
   }
   
-  footer {
+  /* footer {
       margin-left: 2.7rem;
-    }
+    } */
   
     @media (max-width:600px) {
   
@@ -79,7 +79,7 @@
   @media (max-width:475px) {
   
     footer {
-      padding-left: 1.25rem;
+      /* padding-left: 1.25rem; */
       padding-bottom: 5rem;
     }
   

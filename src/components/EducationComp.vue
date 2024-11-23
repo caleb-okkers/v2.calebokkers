@@ -2,7 +2,7 @@
     <div class="container" id="education-section">
       <div class="education-section text-center" v-if="education && education.length">
         <h2 class="edu-heading heading">Education</h2>
-        <p class="subtext">I believe that knowledge is power ... but wisdom is how to use it.</p>
+        <p class="subtext pt-3">I believe that knowledge is power ... but wisdom is how to use it.</p>
   
   
           <div class="education-list">
@@ -56,6 +56,15 @@
   </script>
   
   <style scoped>
+
+p {
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
   .education-section {
     margin: 0 auto;
     max-width: 1000px;
@@ -63,7 +72,6 @@
   }
   
   .edu-heading {
-    margin-bottom: 3rem;
     text-align: center;
   }
 

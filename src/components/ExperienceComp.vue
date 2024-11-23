@@ -2,7 +2,7 @@
     <div class="container" id="experience-section">
       <div class="experience-section text-center" v-if="work && work.length">
     <h2 class="section-heading heading">Work Experience</h2>
-    <p class="subtext">It's not about the destination ... it's about the experience.</p>
+    <p class="subtext pt-3">It's not about the destination ... it's about the experience.</p>
     
     <div class="job-list">
       <ul class="job-tabs">
@@ -53,6 +53,15 @@
   </script>
   
   <style scoped>
+
+p {
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
   .experience-section {
     margin: 0 auto;
     max-width: 1000px;
@@ -60,7 +69,6 @@
   }
   
   .section-heading {
-    margin-bottom: 3rem;
     text-align: center;
   }
 

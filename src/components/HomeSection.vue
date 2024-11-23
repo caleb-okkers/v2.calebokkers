@@ -55,7 +55,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 
 .profile {
     /* aspect-ratio: 1; */
@@ -90,7 +90,7 @@ h1 {
 
 .title {
     font-family: Montserrat;
-    color: #fff;
+    color: #fff !important;
 }
 
 .intro-div {

@@ -99,7 +99,16 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+
+p {
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
 .heading {
   font-size: 36px;
   display: inline-block;
