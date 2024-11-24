@@ -86,7 +86,8 @@ p {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: #e669fb; /* Choose a color for the static text */
-  font-weight: bold; /* Optional: make the static text bold */
+  font-weight: 600; /* Optional: make the static text bold */
+  font-family: "Poppins";
 }
   
   /* .section-heading {
@@ -126,8 +127,11 @@ p {
     display: flex;
     align-items: center;
     transition: all 0.3s ease;
-    font-weight: 200;
-    font-family: "JetBrains Mono", monospace;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
   }
   
   .education-tabs li.active {

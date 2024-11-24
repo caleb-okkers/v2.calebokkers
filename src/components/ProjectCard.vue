@@ -17,7 +17,7 @@
   
             <div class="card__links">
               <a :href="project.github" target="_blank" class="card__button card__button--github">
-                <i class="fa-brands fa-github fa-2xl"></i>
+                <i class="fa-brands fa-github fa-xl"></i>
               </a>
               <a
                 :href="project.hosted"
@@ -47,11 +47,23 @@
   };
   </script>
   
-  <style>
+  <style scoped>
 
-    .card__button img,
+  span {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 0.85rem;
+}
+
+    .card__button img {
+      width: 25px;
+      border-radius: 50%;
+    }
+
     .card__button i {
-      width: 30px;
+      width: 25px;
       border-radius: 50%;
     }
 
@@ -91,6 +103,7 @@
   }
   
   h3 {
+    font-size: 1.4rem !important;
     margin: 0;
     background: linear-gradient(
     135deg,
@@ -122,7 +135,7 @@
   
   .card__container {
     display: grid;
-    gap: 1.5rem;
+    gap: 1rem;
   }
   
   .card__glass {
@@ -158,9 +171,7 @@
   }
   
   .card__description {
-    font-size: var(--small-font-size);
     color: var(--text-color);
-    font-weight: 500;
   }
   
 
