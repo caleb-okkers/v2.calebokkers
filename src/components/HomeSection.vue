@@ -132,7 +132,7 @@ h1 {
   border-radius: 0 !important;
   z-index: 1;
   will-change: color; 
-  font-size: 1.18rem;
+  font-size: 0.8rem;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;

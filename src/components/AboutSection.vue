@@ -120,7 +120,8 @@ p {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: #e669fb; /* Choose a color for the static text */
-  font-weight: bold; /* Optional: make the static text bold */
+  font-weight: 600; /* Optional: make the static text bold */
+  font-family: "Poppins";
 }
 
 .about-div {

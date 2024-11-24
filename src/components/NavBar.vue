@@ -3,9 +3,9 @@
       <nav class="navbar navbar-expand-lg fixed-top home-nav mb-5" id="home-nav">
         <div class="container-fluid d-flex flex-column align-items-center">
           <!-- Title Row -->
-          <div class="row w-100 text-center mx-auto navbar-brand">
+          <!-- <div class="row w-100 text-center mx-auto navbar-brand">
               <h1 class=" title ">CSO</h1>
-          </div>
+          </div> -->
           <!-- Navbar Links Row -->
           <div class="row w-100">
             <button
@@ -86,6 +86,7 @@
     font-style: normal;
     font-size: 1.1rem;
     transition: background-color 0.2s ease-in;
+    height: 15%;
   }
 
   /* .navbar:hover {
@@ -117,9 +118,8 @@
   }
   
   nav a.a-active {
-    /* color: #ecb904 !important; */
-    /* color: var(--primary-light) !important; */
-    color: var(--primary-light) !important;
+
+    color: var(--primary-light) ;
   }
 
   nav a.a-active::after {
@@ -159,7 +159,8 @@
     transition: width 0.3s ease, left 0.3s ease;
   }
   
-  .nav-link:hover {
+  .nav-link:hover,
+  .nav-link.a-active {
     /* color: #ecb904 !important; */
     /* color: var(--primary-light) !important; */
     display: inline-block;
@@ -173,7 +174,8 @@
 
   }
   
-  .nav-link:hover::after {
+  .nav-link:hover::after,
+  .nav-link.a-active::after {
     width: 100%;
     left: 0;
   }

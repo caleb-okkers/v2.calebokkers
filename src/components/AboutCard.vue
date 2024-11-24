@@ -41,6 +41,7 @@
     justify-content: space-between;
     padding: 1px;
     padding-top: 5px;
+    margin: 0.01rem;
   }
   
   .card-image {

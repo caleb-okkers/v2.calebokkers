@@ -34,6 +34,7 @@
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    margin: 0.01rem;
   }
   
   .card-image {
