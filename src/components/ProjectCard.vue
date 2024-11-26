@@ -152,9 +152,9 @@
   }
   
   .card__img {
-    width: 80px;
-    height: 80px;
-    border-radius: 10%;
+    width: 210px;
+    height: 120px;
+    border-radius: 5px;
     border: 2px solid #f4f4fb;
     margin-bottom: 1rem;
   }
