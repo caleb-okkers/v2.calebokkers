@@ -21,29 +21,34 @@
         <h3 class="heading">Personality</h3>
         <div class="person-div pt-4 d-flex justify-content-center">
           <AboutCard
-            imageSrc="https://via.placeholder.com/300"
+            imageSrc="https://github.com/caleb-okkers/first_api/blob/main/images/icons8-knight-helmet-208.png?raw=true"
             caption="ENTJ"
             footer="Myers & Briggs"
           />
           <AboutCard
-            imageSrc="https://via.placeholder.com/300"
+            imageSrc="https://github.com/caleb-okkers/first_api/blob/main/images/icons8-number-8-100.png?raw=true"
             caption="Type 8"
             footer="The Enneagram"
           />
           <AboutCard
-            imageSrc="https://via.placeholder.com/300"
+            imageSrc="https://github.com/caleb-okkers/first_api/blob/main/images/icons8-d-100%20(1).png?raw=true"
             caption="Drive"
             footer="DISC"
           />
           <AboutCard
-            imageSrc="https://via.placeholder.com/300"
+            imageSrc="https://github.com/caleb-okkers/first_api/blob/main/images/icons8-accurate-100.png?raw=true"
             caption="E. Idealist"
             footer="Big Five"
           />
           <AboutCard
-            imageSrc="https://via.placeholder.com/300"
+            imageSrc="https://github.com/caleb-okkers/first_api/blob/main/images/icons8-a-100.png?raw=true"
             caption="Action"
             footer="VISA"
+          />
+          <AboutCard
+            imageSrc="https://github.com/caleb-okkers/first_api/blob/main/images/icons8-ok-hand-100.png?raw=true"
+            caption="Optimist"
+            footer="High 5"
           />
         </div>
       </div>
@@ -52,27 +57,27 @@
         <div class="person-div pt-4 d-flex justify-content-center">
           
           <HobbyCard
-            imageSrc="https://via.placeholder.com/300"
+            imageSrc="https://github.com/caleb-okkers/first_api/blob/main/images/icons8-football-100%20(1).png?raw=true"
             caption="Football"
           />
           <HobbyCard
-            imageSrc="https://via.placeholder.com/300"
+            imageSrc="https://github.com/caleb-okkers/first_api/blob/main/images/icons8-boxing-glove-100.png?raw=true"
             caption="MMA"
           />
           <HobbyCard
-            imageSrc="https://via.placeholder.com/300"
-            caption="F1"
+            imageSrc="https://github.com/caleb-okkers/first_api/blob/main/images/icons8-formula-1-100.png?raw=true"
+            caption="Formula 1"
           />
           <HobbyCard
-            imageSrc="https://via.placeholder.com/300"
+            imageSrc="https://github.com/caleb-okkers/first_api/blob/main/images/art-gallery-svgrepo-com.png?raw=true"
             caption="Art"
           />
           <HobbyCard
-            imageSrc="https://via.placeholder.com/300"
+            imageSrc="https://github.com/caleb-okkers/first_api/blob/main/images/movies-and-tv-svgrepo-com.png?raw=true"
             caption="Movies"
           />
           <HobbyCard
-            imageSrc="https://via.placeholder.com/300"
+            imageSrc="https://github.com/caleb-okkers/first_api/blob/main/images/family-svgrepo-com%20(1).png?raw=true"
             caption="Family"
           />
         </div>

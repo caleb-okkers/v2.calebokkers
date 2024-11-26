@@ -58,6 +58,7 @@
         <div class="row text-center py-4 pt-5">
       <div class="col-md-4">
         <p class="mb-0">Athlone, Cape Town</p>
+        <p class="mb-0">South Africa</p>
       </div>
       <div class="col-md-4">
         <a id="profile-link" href="https://github.com/caleb-okkers" target="_blank" class="btn contact-details">
@@ -260,7 +261,7 @@ i {
 
 iframe {
     width: 400px;
-    height: 500px;
+    height: 470px;
 
 }
 
