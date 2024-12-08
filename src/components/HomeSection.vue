@@ -187,5 +187,131 @@ h1 {
   
 }
 
+/* General responsive adjustments */
+@media (max-width: 1200px) {
+  .intro-div {
+    margin-left: 4rem;
+  }
+
+  .static-type {
+    font-size: 58px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 992px) {
+  .intro-div {
+    margin-left: 2rem;
+    text-align: center;
+  }
+
+  .static-type {
+    font-size: 48px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 0.95rem;
+  }
+
+  .btn {
+    font-size: 0.85rem;
+    padding: 8px 14px;
+  }
+
+  .profile {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro-div {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: center;
+    padding-top: 2rem;
+  }
+
+  .static-type {
+    font-size: 36px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    font-size: 0.8rem;
+    padding: 6px 12px;
+  }
+
+  .profile {
+    width: 100%;
+  }
+
+  .row {
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 576px) {
+
+  /* Navbar adjustments */
+nav {
+  background-color: #001a34; /* Matching the button background color */
+}
+
+.container.pt-5 {
+  padding-top: 5rem !important; /* Ensure content isn't hidden behind navbar */
+}
+
+  .intro-div {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .static-type {
+    font-size: 28px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 0.85rem;
+  }
+
+  .btn {
+    font-size: 0.75rem;
+    padding: 5px 10px;
+  }
+
+  .about-button {
+    padding: 8px 10px;
+  }
+}
+
+
 
 </style>

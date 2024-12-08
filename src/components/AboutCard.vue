@@ -61,6 +61,41 @@
     padding: 1px;
     font-size: 0.7rem;
   }
+
+  /* Default styling for larger screens */
+.card {
+  background-color: #111;
+  color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+  max-width: 100px;
+  height: 100px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1px;
+  padding-top: 5px;
+  margin: 0.01rem;
+}
+
+  /* Media query for screens below 576px */
+@media (max-width: 576px) {
+  .card {
+    width: 90px; /* Slightly smaller cards on mobile */
+    height: 90px;
+  }
+
+  .card-caption {
+    font-size: 0.55rem;
+  }
+
+  .card-footer {
+    font-size: 0.45rem;
+  }
+}
   </style>
   
 

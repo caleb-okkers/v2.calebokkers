@@ -49,4 +49,22 @@
    font-size: 0.8rem;
  }
 
+
+ /* Small mobile screens (max-width: 576px) */
+@media (max-width: 576px) {
+  .card {
+    max-width: 90px; /* Adjust card size for smaller screens */
+    height: 90px;
+    padding: 8px;
+  }
+
+  .card-caption {
+    font-size: 0.49rem;
+    padding-top: 0.5rem;
+  }
+
+  .card-image {
+    width: 45%;
+  }
+}
  </style>

@@ -213,5 +213,65 @@ p {
   .education-tabs li.active .institution-logo {
     filter: none;
   }
+
+  /* Responsive Styling */
+@media (max-width: 768px) {
+
+  .subtext {
+    font-size: 0.9rem;
+  }
+
+  .education-tabs li {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+
+  .education-details h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 475px) {
+  .education-tabs {
+    width: 50%;
+  }
+
+  .education-tabs li {
+    font-size: 0.8rem;
+    padding: 10px;
+  }
+
+  .education-details {
+    text-align: left;
+    padding-left: 1rem;
+  }
+
+  .education-details h3 {
+    font-size: 1.2rem;
+  }
+
+  .institution-logo {
+    width: 25px;
+    height: 25px;
+  }
+
+}
+
+@media (max-width: 576px) {
+  p {
+    font-size: 0.8rem
+  }
+}
+
+@media (max-width: 768px) {
+  .heading {
+    font-size: 36px;
+  }
+}
+@media (max-width: 576px) {
+  .heading {
+    font-size: 28px;
+  }
+}
   </style>
   

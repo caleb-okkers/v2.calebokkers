@@ -151,4 +151,72 @@ p {
   margin-left: 3.5rem;
 }
 
+/* Default styling for larger screens */
+.person-div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Arrange Personality and Hobbies in rows of 3 cards on mobile screens (max-width: 576px) */
+@media (max-width: 576px) {
+
+  .about-row-2 {
+    width: 100%;
+  }
+  
+
+  .person-column,
+  .hobby-column {
+    width: 100% !important;
+    margin: 0;
+  }
+
+  .person-div,
+  .hobby-div {
+    width: 100%;
+    margin: 0;
+  }
+
+  .person-div,
+  .hobby-column .person-div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+    gap: 15px;
+    justify-items: center;
+  }
+
+  /* Display Personality before Hobbies */
+  .about-row-2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .person-column {
+    order: 1;
+  }
+
+  .hobby-column {
+    order: 2;
+  }
+
+
+  p {
+    font-size: 0.8rem
+  }
+}
+
+@media (max-width: 768px) {
+  .heading {
+    font-size: 36px;
+  }
+}
+@media (max-width: 576px) {
+  .heading {
+    font-size: 28px;
+  }
+}
+
+
 </style>
