@@ -23,4 +23,15 @@ export default {
 
 <style>
 
+@media (max-width: 768px) {
+  .heading {
+    font-size: 36px;
+  }
+}
+@media (max-width: 576px) {
+  .heading {
+    font-size: 28px;
+  }
+}
+
 </style>

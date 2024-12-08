@@ -185,12 +185,19 @@ p {
     color: #333;
     text-align: left;
     padding-left: 2rem ;
+    font-size: 0.8rem;
   }
 
   .job-details h3  {
     font-size: 1.2rem;
   }
 
+}
+
+@media (max-width: 576px) {
+  p {
+    font-size: 0.8rem
+  }
 }
 
 .company-logo {
@@ -204,4 +211,16 @@ p {
 .job-tabs li.active .company-logo {
   filter: none;
 }
+
+@media (max-width: 768px) {
+  .heading {
+    font-size: 36px;
+  }
+}
+@media (max-width: 576px) {
+  .heading {
+    font-size: 28px;
+  }
+}
+
   </style>

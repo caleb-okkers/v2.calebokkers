@@ -49,4 +49,23 @@
     margin-bottom: -10px;
   }
 
+    /* Default styling for larger screens */
+
+
+  /* Media query for screens below 576px */
+@media (max-width: 576px) {
+  .card {
+    width: 90px; /* Slightly smaller cards on mobile */
+    height: 90px;
+  }
+
+  .card-caption {
+    font-size: 0.55rem;
+  }
+
+  .card-footer {
+    font-size: 0.45rem;
+  }
+}
+
   </style>

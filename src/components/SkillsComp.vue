@@ -65,4 +65,58 @@ p {
     font-style: normal;
 }
 
+/* Tablet and smaller screens (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .heading {
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 0.95rem;
+  }
+
+  .skill-div {
+    width: 80%;
+  }
+}
+
+/* Mobile screens (max-width: 768px) */
+@media (max-width: 768px) {
+  .heading {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  .skill-div {
+    width: 90%;
+  }
+}
+
+/* Small mobile screens (max-width: 576px) */
+@media (max-width: 576px) {
+
+  p {
+    font-size: 0.8rem;
+  }
+
+  .skill-div {
+    width: 100%;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .heading {
+    font-size: 36px;
+  }
+}
+@media (max-width: 576px) {
+  .heading {
+    font-size: 28px;
+  }
+}
+
 </style>

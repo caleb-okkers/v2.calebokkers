@@ -200,6 +200,10 @@
   opacity: 0;
 }
 
+.card__button:hover {
+  scale: 1.09;
+}
+
 .card__glass:hover .card__button--github {
   animation: fadeIn 0.4s ease-in-out 0.3s forwards;
 }
@@ -252,9 +256,14 @@
     }
 
   }
-  </style>
-  
 
+  @media (max-width: 576px) {
+  p {
+    font-size: 0.8rem
+  }
+}
+
+  </style>
 <!-- <template>
     <div>
         <section class="card">

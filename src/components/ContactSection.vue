@@ -8,7 +8,9 @@
         <div class="row pt-5 d-flex justify-content-center">
             
                 <div class="spline-div">
-                    <iframe src='https://my.spline.design/cybermannequin-013efb57449009f300fec795056b9482/' frameborder='0' width='100%' height='100%'></iframe>
+                    <!-- <iframe src='https://my.spline.design/cybermannequin-013efb57449009f300fec795056b9482/' frameborder='0' width='100%' height='100%'></iframe> -->
+                    <!-- <iframe src='https://my.spline.design/worldplanet-163b7172fe88ddc6f7163ff1c3662c4a/' frameborder='0' width='100%' height='100%'></iframe> -->
+                    <iframe src='https://my.spline.design/rocket-478afbf555227006173ef331e54450c6/' frameborder='0' width='100%' height='100%'></iframe>
                 </div>
             
             
@@ -55,12 +57,12 @@
             
         </div>
         <!-- <div class="content"></div> -->
-        <div class="row text-center py-4 pt-5">
-      <div class="col-md-4">
+        <div class="row info text-center py-4 pt-5">
+      <div class="col-md-4 mb-3">
         <p class="mb-0">Athlone, Cape Town</p>
         <p class="mb-0">South Africa</p>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 mb-3">
         <a id="profile-link" href="https://github.com/caleb-okkers" target="_blank" class="btn contact-details">
                             <i class="fab fa-github fa-2xl"></i>
                             <!-- <span>
@@ -74,7 +76,7 @@
                             </span> -->
                         </a>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 mb-3">
         <p class="mb-0">okkerscaleb@gmail.com</p>
         <p class="mb-0">078 344 9656</p>
       </div>
@@ -262,7 +264,7 @@ i {
 iframe {
     width: 400px;
     height: 470px;
-
+    border-radius: 10px;
 }
 
 .form-div {
@@ -287,7 +289,7 @@ iframe {
     }
 
     .form-div {
-        width: 100% !important;
+        width: 90% !important;
         margin: 0 12px;
         padding-left: 0px ;
     }
@@ -303,4 +305,113 @@ iframe {
     }
 }
 
+
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+
+    p {
+        font-size: 0.95rem;
+    }
+
+    label {
+        font-size: 0.95rem;
+    }
+
+    .form-div .btn {
+        font-size: 0.95rem;
+        width: 50%;
+    }
+
+    iframe {
+        width: 80%;
+        height: 350px;
+        margin: 0 auto;
+    }
+
+    .form-div {
+        width: 60% !important;
+        max-width: 100%;
+    }
+
+    .spline-div {
+        width: 80%;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (max-width: 475px) {
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    label {
+        font-size: 0.9rem;
+    }
+
+    .form-div .btn {
+        font-size: 0.9rem;
+        width: 70%;
+        margin-bottom: 2rem !important;
+    }
+
+    iframe {
+        width: 100%;
+        height: 300px;
+    }
+
+    .form-div {
+        width: 90% !important;
+        padding: 0 12px;
+    }
+
+    .spline-div {
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+  p {
+    font-size: 0.8rem
+  }
+}
+
+/* Default order for larger screens (no change needed for desktop/tablet) */
+.text-center .col-md-4 {
+    order: initial;
+}
+
+/* Adjust order on mobile (below 768px) */
+@media (max-width: 768px) {
+    /* Links come first */
+    .text-center .col-md-4:nth-child(1) {
+        order: 1;
+    }
+
+    /* Location comes second */
+    .text-center .col-md-4:nth-child(2) {
+        order: 2;
+    }
+
+    /* Contact info comes last */
+    .text-center .col-md-4:nth-child(3) {
+        order: 3;
+    }
+
+    .info {
+        margin-top: 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+  .heading {
+    font-size: 36px;
+  }
+}
+@media (max-width: 576px) {
+  .heading {
+    font-size: 28px;
+  }
+}
 </style>
