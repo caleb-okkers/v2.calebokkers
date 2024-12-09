@@ -22,19 +22,19 @@
             <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
               <ul class="navbar-nav mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link" href="#home">Home</a>
+                  <a class="nav-link" :class="{ active: activeSection === 'home' }" href="#home">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#about">About</a>
+                  <a class="nav-link" :class="{ active: activeSection === 'about' }" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#resume">Education & Experience</a>
+                  <a class="nav-link" :class="{ active: activeSection === 'resume' }" href="#resume">Education & Experience</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#projects">Projects</a>
+                  <a class="nav-link" :class="{ active: activeSection === 'projects' }" href="#projects">Projects</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#contact">Contact</a>
+                  <a class="nav-link" :class="{ active: activeSection === 'contact' }" href="#contact">Contact</a>
                 </li>
               </ul>
             </div>
@@ -47,6 +47,11 @@
   <script>
   export default {
     name: "NavBar",
+    data() {
+    return {
+      activeSection: "home",
+      };
+    },
     mounted() {
       window.addEventListener("scroll", this.handleScroll);
     },
@@ -55,6 +60,18 @@
     },
     methods: {
       handleScroll() {
+        const sections = ["home", "about", "resume", "projects", "contact"];
+      for (let section of sections) {
+        const sectionElement = document.getElementById(section);
+        if (sectionElement) {
+          const rect = sectionElement.getBoundingClientRect();
+          if (rect.top <= 100 && rect.bottom >= 100) {
+            this.activeSection = section;
+            break;
+          }
+        }
+      }
+
         const navbar = document.getElementById("home-nav");
         if (window.scrollY > 10) {
           navbar.style.backgroundColor = "var(--primary-dark)";
@@ -117,12 +134,12 @@
     background: #000 !important;
   }
   
-  nav a.a-active {
+  nav a.active {
 
     color: var(--primary-light) ;
   }
 
-  nav a.a-active::after {
+  nav a.active::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -160,7 +177,7 @@
   }
   
   .nav-link:hover,
-  .nav-link.a-active {
+  .nav-link.active {
     /* color: #ecb904 !important; */
     /* color: var(--primary-light) !important; */
     display: inline-block;
@@ -175,7 +192,7 @@
   }
   
   .nav-link:hover::after,
-  .nav-link.a-active::after {
+  .nav-link.active::after {
     width: 100%;
     left: 0;
   }
