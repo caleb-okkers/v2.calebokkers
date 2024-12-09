@@ -1,5 +1,5 @@
 <template>
-   <div class="card">
+   <div class="card"  data-aos="fade-up">
      <img :src="imageSrc" alt="Card Image" class="card-image pt-3" />
      <p class="card-caption">{{ caption }}</p>
    </div>

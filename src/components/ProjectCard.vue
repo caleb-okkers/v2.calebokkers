@@ -6,7 +6,8 @@
           <div
             v-for="(project, index) in projects"
             :key="index"
-            class="card__glass"
+            class="card__glass" 
+             data-aos="fade-up"
           >
             <img :src="project.image" alt="Project Image" class="card__img" />
   
