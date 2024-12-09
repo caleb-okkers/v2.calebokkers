@@ -50,11 +50,14 @@ html {
 
 body {
     min-height: 100vh;
-    background: #020202;
     overflow-x: hidden;
     /* overflow-y: scroll; */
     margin: 0;
     padding: 0;
+}
+
+body {
+    background: #151515 !important;
 }
 
 section {

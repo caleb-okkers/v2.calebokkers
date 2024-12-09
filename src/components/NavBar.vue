@@ -131,7 +131,7 @@
   
   .navbar-toggler:focus {
     box-shadow: none !important;
-    background: #000 !important;
+    background: #151515 !important;
   }
   
   nav a.active {

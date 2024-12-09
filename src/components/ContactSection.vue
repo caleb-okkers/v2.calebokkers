@@ -59,7 +59,7 @@
         <!-- <div class="content"></div> -->
         <div class="row info text-center py-4 pt-5">
       <div class="col-md-4 mb-3">
-        <p class="mb-0">Athlone, Cape Town</p>
+        <p class="mb-0">Century City, Cape Town</p>
         <p class="mb-0">South Africa</p>
       </div>
       <div class="col-md-4 mb-3">
