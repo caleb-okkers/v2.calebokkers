@@ -41,7 +41,7 @@
             </div>
         </div>
         <div class="col me-auto">
-            <img class="profile" src="https://github.com/caleb-okkers/portfolioaugust24/blob/master/src/assets/p7enhanced.png?raw=true" alt="">
+            <img class="profile" src="https://github.com/caleb-okkers/portfolioaugust24/blob/master/src/assets/p7enhanced.png?raw=true" alt="profile">
         </div>
     </div>
 
@@ -56,6 +56,10 @@ export default {
 </script>
 
 <style scoped>
+
+.row {
+  min-height: 100dvh
+}
 
 .profile {
     /* aspect-ratio: 1; */
