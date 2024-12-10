@@ -16,6 +16,7 @@
               aria-controls="navbarNavAltMarkup"
               aria-expanded="false"
               aria-label="Toggle navigation"
+               @click="toggleNavbar"
             >
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -79,6 +80,12 @@
           navbar.style.backgroundColor = "rgba(0, 0, 0, 0)";
         }
       },
+
+      toggleNavbar() {
+    const navbarCollapse = document.getElementById('navbarNavAltMarkup');
+    navbarCollapse.classList.toggle('show');
+  },
+
     },
   };
   </script>
@@ -93,7 +100,21 @@
   background: linear-gradient(180deg, #bc26d6, #fe7ab6); /* Your gradient colors */
   -webkit-background-clip: text; 
   -webkit-text-fill-color: transparent;
-} 
+}
+
+.navbar-collapse.collapsing,
+.navbar-collapse.show {
+  background-color: var(--primary-dark); /* Dark background color */
+  padding: 1rem; /* Optional: Add padding for aesthetics */
+  border-radius: 5px; /* Optional: Add rounded corners */
+  transition: none; /* Disable transition for immediate effect */
+}
+
+  /* @media (max-width: 768px) {
+    .navbar {
+      background: #151515;
+    }
+  } */
 
 
   .navbar {

@@ -40,7 +40,7 @@ export default {
           easing: 'ease-in-out', // Animation easing
           once: true,          // Whether the animation should only happen once
         });
-      }, 7000); // Adjust the delay as needed
+      }, 6000); // Adjust the delay as needed
     });
 
     return { isLoading };
