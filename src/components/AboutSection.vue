@@ -53,7 +53,7 @@
         </div>
       </div>
       <div class="col text-center justify-content-center pt-5 hobby-column">
-        <h3 class="heading">Hobbies</h3>
+        <h3 class="heading">Interests</h3>
         <div class="person-div pt-4 d-flex justify-content-center">
           
           <HobbyCard

@@ -65,6 +65,21 @@ p {
     font-style: normal;
 }
 
+@media (min-width: 1850px) {
+
+
+  .skill-div {
+    width: 45%;
+  }
+}
+@media (min-width: 1670px) and (max-width: 1849px) {
+
+
+  .skill-div {
+    width: 55%;
+  }
+}
+
 /* Tablet and smaller screens (max-width: 1024px) */
 @media (max-width: 1024px) {
   .heading {

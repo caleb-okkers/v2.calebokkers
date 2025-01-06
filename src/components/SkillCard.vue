@@ -49,6 +49,8 @@
    font-size: 0.8rem;
  }
 
+ /* Very large screens (min-width: 1600px) */
+
 
  /* Small mobile screens (max-width: 576px) */
 @media (max-width: 576px) {
