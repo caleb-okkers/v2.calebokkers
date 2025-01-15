@@ -81,10 +81,10 @@
         }
       },
 
-      toggleNavbar() {
-    const navbarCollapse = document.getElementById('navbarNavAltMarkup');
-    navbarCollapse.classList.toggle('show');
-  },
+  //     toggleNavbar() {
+  //   const navbarCollapse = document.getElementById('navbarNavAltMarkup');
+  //   navbarCollapse.classList.toggle('show');
+  // },
 
     },
   };
