@@ -312,7 +312,17 @@ nav {
   }
 
   .about-button {
-    padding: 8px 10px;
+    padding: 5px 10px;
+  }
+
+  .profile {
+    width: 100%;
+    margin-top: 4rem;
+  }
+
+  .intro-div {
+    padding: 0;
+    padding-bottom: 0 !important;
   }
 }
 

@@ -165,6 +165,14 @@ p {
   .about-row-2 {
     width: 100%;
   }
+
+  .about-div {
+  text-align: center;
+  width: 78%;
+}
+  .about-div p {
+  text-align: justify;
+}
   
 
   .person-column,
