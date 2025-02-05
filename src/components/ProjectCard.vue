@@ -17,7 +17,7 @@
             </div>
   
             <div class="card__links">
-              <a :href="project.github" target="_blank" class="card__button card__button--github">
+              <a v-if="index !== 0" :href="project.github" target="_blank" class="card__button card__button--github">
                 <i class="fa-brands fa-github fa-xl"></i>
               </a>
               <a
