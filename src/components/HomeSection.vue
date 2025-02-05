@@ -317,7 +317,7 @@ nav {
 
   .profile {
     width: 100%;
-    margin-top: 4rem;
+    margin-top: 1.5rem;
   }
 
   .intro-div {
