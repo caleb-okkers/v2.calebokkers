@@ -121,11 +121,11 @@ p {
     135deg,
     #bc26d6,
     #fe7ab6
-  ); /* Your gradient colors */
+  ); 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  color: #e669fb; /* Choose a color for the static text */
-  font-weight: 600; /* Optional: make the static text bold */
+  color: #e669fb; 
+  font-weight: 600; 
   font-family: "Poppins";
 }
 
@@ -135,7 +135,7 @@ p {
 }
 
 .about-row-2 {
-  width: 60%;
+  width: 77.5%;
   margin: 0 auto !important;
 }
 
@@ -151,7 +151,7 @@ p {
   margin-left: 3.5rem;
 }
 
-/* Default styling for larger screens */
+
 .person-div {
   display: flex;
   flex-wrap: wrap;
@@ -159,7 +159,7 @@ p {
   justify-content: center;
 }
 
-/* Arrange Personality and Hobbies in rows of 3 cards on mobile screens (max-width: 576px) */
+
 @media (max-width: 576px) {
 
   .about-row-2 {
@@ -195,7 +195,7 @@ p {
     justify-items: center;
   }
 
-  /* Display Personality before Hobbies */
+  
   .about-row-2 {
     display: flex;
     flex-direction: column;

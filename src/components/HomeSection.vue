@@ -27,7 +27,7 @@
             <div class="intro-div pb-5">
                 <p class="intro-text">Hi, I'm</p>
                 <h1 class="name static-type">CALEB OKKERS.</h1>
-                <h3 class="title pt-2">Fullstack Developer</h3>
+                <h3 class="title pt-2">Frontend Developer</h3>
                 <p class="intro-text">I design and build pixel perfect projects that inspire innovation and provide satisfying digital experiences.</p>
                 <a href="#about">
                     <button class="about-button btn mx-auto"><span class="text-light">About me</span></button>
