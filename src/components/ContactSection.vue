@@ -414,4 +414,10 @@ iframe {
     font-size: 28px;
   }
 }
+
+@media (min-width: 768px) {
+  .spline-div {
+    margin-right: 4rem;
+  }
+}
 </style>
