@@ -135,7 +135,7 @@ p {
 }
 
 .about-row-2 {
-  width: 77.5%;
+  width: 68%;
   margin: 0 auto !important;
 }
 
