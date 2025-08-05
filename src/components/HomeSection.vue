@@ -35,7 +35,7 @@
                 <a  href="#projects">
                     <button class="btn sort m-2 " type="button" id="sort"><span class="text-light">My work</span></button>
                 </a>
-                <a href="https://pdf.ac/29b2Jb" class="btn btn-primary" target="_blank">
+                <a href="https://drive.google.com/uc?export=download&id=1vvMaodCkKw-UtcawrnvfgqJFXZOPrp5s" class="btn btn-primary" target="_blank">
                     <span class="text-light">Download CV</span>
                 </a>
             </div>
