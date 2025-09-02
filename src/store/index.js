@@ -37,6 +37,9 @@ export default createStore({
     setProjects(state,payload) {
       state.projects = payload
     },
+    setCertifications(state,payload) {
+      state.certifications = payload
+    },
     setTestimonials(state,payload) {
       state.testimonials = payload
     },
@@ -143,6 +146,20 @@ export default createStore({
       try {
         let {projectsv2} = (await axios.get(portfolioURL)).data
         context.commit('setProjects', projectsv2)
+        
+      }catch(e) {
+        Swal.fire({
+          title: "Error",
+          text: "Failed to fetch data",
+          icon: "error",
+          timer: 2000
+        })
+      }
+    },
+    async getCertifications(context){
+      try {
+        let {certifications} = (await axios.get(portfolioURL)).data
+        context.commit('setCertifications', certifications)
         
       }catch(e) {
         Swal.fire({

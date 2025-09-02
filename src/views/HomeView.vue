@@ -13,6 +13,9 @@
       <section class="row" id="projects">
         <ProjectsSection/>
       </section>
+      <section class="row" id="certifications">
+        <CertificationsSection/>
+      </section>
       <section class="row" id="contact">
         <ContactSection/>
       </section>
@@ -26,6 +29,7 @@ import HomeSection from '@/components/HomeSection.vue'
 import AboutSection from '@/components/AboutSection.vue'
 import ResumeSection from '@/components/ResumeSection.vue'
 import ProjectsSection from '@/components/ProjectsSection.vue'
+import CertificationsSection from '@/components/CertificationsSection.vue'
 import ContactSection from '@/components/ContactSection.vue'
 
 export default {
@@ -35,6 +39,7 @@ export default {
     AboutSection,
     ResumeSection,
     ProjectsSection,
+    CertificationsSection,
     ContactSection
   }
 }
