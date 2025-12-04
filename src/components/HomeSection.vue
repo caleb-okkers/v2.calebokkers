@@ -300,7 +300,7 @@ nav {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
     padding-bottom: 0 !important;
-    padding-top: 10rem !important;
+    padding-top: 5rem !important;
   }
 
   .static-type {
@@ -312,7 +312,7 @@ nav {
   }
 
   h1 {
-    font-size: 52px !important;
+    font-size: 42px !important;
   }
 
   p {
@@ -332,8 +332,8 @@ nav {
 
   .profile {
     width: 100%;
-    /* margin-top: 1.5rem; */
-    padding-bottom: 10rem;
+    margin-top: -7.5rem;
+    padding-bottom: 0rem !important;
   }
 
   .intro-div {
