@@ -133,6 +133,9 @@ p {
   text-align: center;
   width: 65%;
 }
+.about-div p {
+  text-align: center;
+}
 
 .about-row-2 {
   width: 68%;
@@ -179,7 +182,7 @@ p {
   width: 78%;
 }
   .about-div p {
-  text-align: justify;
+  text-align: left;
 }
   
 
@@ -215,6 +218,7 @@ p {
 
   .hobby-column {
     order: 2;
+    padding-bottom: 3rem;
   }
 
 
