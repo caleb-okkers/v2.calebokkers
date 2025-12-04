@@ -162,6 +162,14 @@ p {
 
 @media (max-width: 576px) {
 
+  .container {
+    padding-top: 0 !important;
+  }
+
+  .row {
+    padding-top: 0 !important;
+  }
+
   .about-row-2 {
     width: 100%;
   }
