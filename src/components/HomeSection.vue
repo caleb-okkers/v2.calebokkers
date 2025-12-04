@@ -262,7 +262,7 @@ h1 {
   }
 
     h3 {
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
   }
 
   p {
@@ -300,7 +300,7 @@ nav {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
     padding-bottom: 0 !important;
-    padding-top: 5rem !important;
+    padding-top: 1rem !important;
   }
 
   .static-type {
@@ -312,7 +312,7 @@ nav {
   }
 
   h1 {
-    font-size: 42px !important;
+    font-size: 36px !important;
   }
 
   p {
