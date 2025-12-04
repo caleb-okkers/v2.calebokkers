@@ -308,7 +308,7 @@ nav {
   }
 
   h3 {
-    padding-bottom: 3rem;
+    padding-bottom: 1.5rem;
   }
 
   h1 {
