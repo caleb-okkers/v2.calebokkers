@@ -25,7 +25,7 @@
         <div class="row d-flex justify-content-center align-items-center">
         <div class="col d-flex justify-content-center">
             <div class="intro-div pb-5">
-                <p class="intro-text">Hi, I'm</p>
+                <!-- <p class="intro-text">Hi, I'm</p> -->
                 <h1 class="name static-type">CALEB OKKERS.</h1>
                 <h3 class="title pt-2">Fullstack Developer</h3>
                 <p class="intro-text">I create pixel-perfect, full-stack projects that blend thoughtful design with functional code, delivering engaging digital experiences.</p>
@@ -96,6 +96,7 @@ h1 {
     font-family: Montserrat;
     color: #fff !important;
 }
+
 
 .intro-div {
     color: #fff;
