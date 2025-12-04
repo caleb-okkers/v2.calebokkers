@@ -27,8 +27,8 @@
             <div class="intro-div pb-5">
                 <p class="intro-text">Hi, I'm</p>
                 <h1 class="name static-type">CALEB OKKERS.</h1>
-                <h3 class="title pt-2">Frontend Developer</h3>
-                <p class="intro-text">I design and build pixel perfect projects that inspire innovation and provide satisfying digital experiences.</p>
+                <h3 class="title pt-2">Fullstack Developer</h3>
+                <p class="intro-text">I create pixel-perfect, full-stack projects that blend thoughtful design with functional code, delivering engaging digital experiences.</p>
                 <a href="#about">
                     <button class="about-button btn mx-auto"><span class="text-light">About me</span></button>
                 </a>
@@ -249,7 +249,8 @@ h1 {
     margin-left: 1rem;
     margin-right: 1rem;
     text-align: center;
-    padding-top: 2rem;
+    padding-bottom: 0 !important;
+    padding-top: 10rem !important;
   }
 
   .static-type {
@@ -257,11 +258,16 @@ h1 {
   }
 
   h1 {
-    font-size: 36px;
+    font-size: 64px !important;
+  }
+
+    h3 {
+    padding-bottom: 3rem;
   }
 
   p {
     font-size: 0.9rem;
+    display: none;
   }
 
   .btn {
@@ -271,10 +277,11 @@ h1 {
 
   .profile {
     width: 100%;
+    padding-bottom: 10rem;
   }
 
   .row {
-    flex-direction: column-reverse;
+    flex-direction:column;
   }
 }
 
@@ -292,23 +299,31 @@ nav {
   .intro-div {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
+    padding-bottom: 0 !important;
+    padding-top: 10rem !important;
   }
 
   .static-type {
     font-size: 28px;
   }
 
+  h3 {
+    padding-bottom: 3rem;
+  }
+
   h1 {
-    font-size: 28px;
+    font-size: 52px !important;
   }
 
   p {
     font-size: 0.85rem;
+    display: none;
   }
 
   .btn {
     font-size: 0.75rem;
     padding: 5px 10px;
+    margin-top: ;
   }
 
   .about-button {
@@ -317,7 +332,8 @@ nav {
 
   .profile {
     width: 100%;
-    margin-top: 1.5rem;
+    /* margin-top: 1.5rem; */
+    padding-bottom: 10rem;
   }
 
   .intro-div {
