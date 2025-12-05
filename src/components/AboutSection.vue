@@ -166,7 +166,7 @@ p {
 @media (max-width: 576px) {
 
   .container {
-    padding-top: 0 !important;
+    padding-top: 2rem !important;
   }
 
   .row {

@@ -1,5 +1,6 @@
 <template>
   <div class="wrapper" id="app">
+
     <LoadingAnimation v-if="isLoading" />
     
     <div v-else>
