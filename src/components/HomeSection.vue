@@ -44,9 +44,11 @@
         <div class="col me-auto">
           <img
             class="profile"
-            src="https://github.com/caleb-okkers/portfolioaugust24/blob/master/src/assets/p7enhanced.png?raw=true"
+            src="@/assets/Caleb Okkers Profile Photo.png"
             alt="profile"
           />
+
+          <!-- https://github.com/caleb-okkers/portfolioaugust24/blob/master/src/assets/p7enhanced.png?raw=true -->
         </div>
       </div>
     </div>
