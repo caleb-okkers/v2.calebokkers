@@ -147,7 +147,8 @@
    
     border-radius: 5px;
     backdrop-filter: blur(10px);
-    background: #111;
+    /* background: #111; */
+        background-color: #050413;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
     color: #f4f4fb;
   }

@@ -5,11 +5,10 @@
         <div class="about-div">
           <h3 class="heading">About</h3>
           <p class="pt-4">
-            I am a compassionate person who enjoys having fun and joking around
-            while knowing when to lock in and take things seriously. I hold
-            values such as respect, kindness, integrity and mindfulness while I
-            pride myself on being honest and transparent. I also enjoy improving
-            myself and encouraging others.
+           Full-Stack Developer experienced in building responsive web applications using modern
+           JavaScript technologies, AI tools, and CMS platforms. Skilled in Vue.js, Node.js, REST APIs,
+           MySQL, and WordPress . Strong focus on UI/UX design, cloud platforms, and developing
+           scalable, high-performance web applications.
           </p>
         </div>
       </div>
@@ -134,7 +133,7 @@ p {
   width: 65%;
 }
 .about-div p {
-  text-align: center;
+  text-align: left;
 }
 
 .about-row-2 {

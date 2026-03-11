@@ -23,7 +23,8 @@
     <style scoped>
   footer {
     color: var(--primary-light);
-      background: var(--primary-dark);
+      /* background: var(--primary-dark); */
+          background-color: #06041a;
     /* font-family: "Bona Nova SC", serif;
       font-weight: 500;
       font-style: normal;

@@ -2,8 +2,9 @@
     <div class="container" id="experience-section">
       <div class="experience-section text-center" v-if="work && work.length">
     <h2 class="section-heading heading">Work Experience</h2>
-    <p class="subtext pt-3">It's not about the destination ... it's about the experience.</p>
-    
+    <!-- <p class="subtext pt-3">It's not about the destination ... it's about the experience.</p> -->
+        <br>
+        <br>
     <div class="job-list">
       <ul class="job-tabs">
         <li
@@ -109,7 +110,8 @@ p {
   .job-tabs li {
     padding: 15px;
     cursor: pointer;
-    color: #666;
+    /* color: #666; */
+    color: #9b9b9b;
     border-left: 2px solid transparent;
     display: flex;
     align-items: center;
@@ -143,6 +145,7 @@ p {
 
   .job-details {
     width: 65%;
+    text-align: left;
   }
   
   .job-details h3 {

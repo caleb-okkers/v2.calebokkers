@@ -27,7 +27,8 @@
   
   <style scoped>
   .card {
-    background-color: #111;
+    /* background-color: #111; */
+    background-color: #050314;
     color: white;
     border-radius: 5px;
     overflow: hidden;
@@ -57,14 +58,15 @@
   }
   
   .card-footer {
-    color: #555;
+    color: #9b9b9b;
     padding: 1px;
     font-size: 0.7rem;
   }
 
   /* Default styling for larger screens */
 .card {
-  background-color: #111;
+  /* background-color: #111; */
+      background-color: #080216;
   color: white;
   border-radius: 5px;
   overflow: hidden;

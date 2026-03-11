@@ -195,7 +195,8 @@ h1 {
 .btn {
   position: relative;
   overflow: hidden;
-  background-color: var(--primary-dark) !important;
+  /* background-color: var(--primary-dark) !important; */
+  background-color: #06041a !important;
   color: #fff !important;
   border-color: #fff !important;
   text-align: center !important;
@@ -213,7 +214,11 @@ h1 {
   border-radius: 4px !important;
 }
 
-.btn::before,
+.btn:hover {
+  background-color: #050314!important; 
+}
+
+/* .btn::before,
 .about-button::before {
   content: '';
   position: absolute;
@@ -235,11 +240,6 @@ h1 {
   transform: scaleX(1);
 }
 
-/* .btn:hover,
-.about-button:hover::before {
-  color: #001a34 !important; 
-} */
-
 .btn span,
 .about-button span {
   position: relative;
@@ -258,7 +258,7 @@ h1 {
   will-change: color; 
   color: #fff !important;
   
-}
+} */
 
 
 /* General responsive adjustments */

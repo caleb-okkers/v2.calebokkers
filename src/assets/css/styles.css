@@ -75,12 +75,18 @@ body {
 }
 
 body {
-    background: #151515 !important;
+    /* background: #151515 !important; */
+    /* background: #07041b!important; */
+    /* background: #050314!important; */
+    background: #06041a!important;
       /* background: transparent !important; */
 }
 
 section {
-    background: #151515;
+    /* background: #151515; */
+    /* background: #07041b; */
+    /* background: #050314; */
+    background: #06041a;
     margin: 0;
     padding: 0;
     /* background: transparent !important; */

@@ -93,7 +93,8 @@ export default {
 .btn {
   position: relative;
   overflow: hidden;
-  background-color: var(--primary-dark) !important;
+  /* background-color: var(--primary-dark) !important; */
+  background-color: #06041a !important;
   color: #fff !important;
   border-color: #fff !important;
   text-align: center !important;
@@ -111,7 +112,7 @@ export default {
   border-radius: 4px !important;
 }
 
-.btn::before {
+/* .btn::before {
   content: '';
   position: absolute;
   top: 0;
@@ -129,14 +130,9 @@ export default {
 
 .btn:hover::before {
   transform: scaleX(1);
-}
-
-/* .btn:hover,
-.about-button:hover::before {
-  color: #001a34 !important; 
 } */
 
-.btn span,
+/* .btn span,
 .about-button span {
   position: relative;
   z-index: 2;
@@ -154,7 +150,7 @@ export default {
   will-change: color; 
   color: #fff !important;
   
-}
+} */
 
 /* original project card styling */
 span {
@@ -188,7 +184,8 @@ span {
   padding: 2rem;
   border-radius: 5px;
   backdrop-filter: blur(10px);
-  background: #111;
+  /* background: #111; */
+      background-color: #050314;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
   color: #f4f4fb;
 }
@@ -351,7 +348,8 @@ span {
 
 /* Centered modal box */
 .modal-content {
-  background: #111;
+  /* background: #111; */
+  background: #050314;
   padding: 1.5rem;
   border-radius: 8px;
   text-align: center;

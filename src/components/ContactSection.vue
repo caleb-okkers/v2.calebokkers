@@ -179,7 +179,8 @@ label {
 .form-div .btn {
   position: relative;
   overflow: hidden;
-  background-color: var(--primary-dark) !important;
+  /* background-color: var(--primary-dark) !important; */
+  background-color: #06041a !important;
   color: #fff !important;
   border-color: #fff !important;
   text-align: center !important;
@@ -198,7 +199,11 @@ label {
   width: 30%;
 }
 
-.form-div .btn::before {
+.btn:hover {
+  background-color: #050314!important; 
+}
+
+/* .form-div .btn::before {
   content: '';
   position: absolute;
   top: 0;
@@ -234,7 +239,7 @@ label {
   will-change: color; 
   color: #fff !important;
   
-}
+} */
 
 
 i {

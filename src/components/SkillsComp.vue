@@ -2,7 +2,7 @@
   <div class="container pt-5">
    <div class="text-center">
       <h3 class="heading">Skills</h3>
-      <p class="subtext pt-3">What I do have are a very particular set of skills ...</p>
+      <!-- <p class="subtext pt-3">What I do have are a very particular set of skills ...</p> -->
    </div>
    <div class="row justify-content-center align-items-center pt-5 skill-div">
 

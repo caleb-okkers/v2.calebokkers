@@ -75,7 +75,8 @@
 
         const navbar = document.getElementById("home-nav");
         if (window.scrollY > 10) {
-          navbar.style.backgroundColor = "var(--primary-dark)";
+          //navbar.style.backgroundColor = "var(--primary-dark)";
+          navbar.style.backgroundColor = "#06041a";
         } else {
           navbar.style.backgroundColor = "rgba(0, 0, 0, 0)";
         }
@@ -104,7 +105,8 @@
 
 .navbar-collapse.collapsing,
 .navbar-collapse.show {
-  background-color: var(--primary-dark); /* Dark background color */
+  /* background-color: var(--primary-dark);  */
+  background-color: #06041a; /* Dark background color */
   padding: 1rem; /* Optional: Add padding for aesthetics */
   border-radius: 5px; /* Optional: Add rounded corners */
   transition: none; /* Disable transition for immediate effect */
@@ -152,7 +154,8 @@
   
   .navbar-toggler:focus {
     box-shadow: none !important;
-    background: #151515 !important;
+    /* background: #151515 !important; */
+    background: #06041a !important;
   }
   
   nav a.active {

@@ -2,8 +2,9 @@
     <div class="container" id="education-section">
       <div class="education-section text-center" v-if="education && education.length">
         <h2 class="edu-heading heading">Education</h2>
-        <p class="subtext pt-3">I believe that knowledge is power ... but wisdom is how to use it.</p>
-  
+        <!-- <p class="subtext pt-3">I believe that knowledge is power ... but wisdom is how to use it.</p> -->
+        <br>
+        <br>
   
           <div class="education-list">
             <ul class="education-tabs">
@@ -122,7 +123,8 @@ p {
   .education-tabs li {
     padding: 15px;
     cursor: pointer;
-    color: #666;
+    /* color: #666; */
+    color: #9b9b9b;
     border-left: 2px solid transparent;
     display: flex;
     align-items: center;
@@ -154,6 +156,7 @@ p {
   
   .education-details {
     width: 65%;
+     text-align: left;
   }
   
   .education-details h3 {
